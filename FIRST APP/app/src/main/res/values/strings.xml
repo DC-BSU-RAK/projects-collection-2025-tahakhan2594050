@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VacationSpotCalculator</string>
+    <string name="title_text">Vacation Spots</string>
+    <string name="select_weather">Select Weather:</string>
+    <string name="select_budget">Select Budget:</string>
+    <string name="select_activity">Select Activity Level:</string>
+    <string name="find_vacation">Find My Vacation!</string>
+    <string name="result_placeholder">Recommended Destination will appear here.</string>
+    <string name="how_it_works">How It Works</string>
+    <string name="background_gif">Animated travel background</string>
+</resources>
