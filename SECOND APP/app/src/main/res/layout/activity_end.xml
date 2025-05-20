@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2E99D"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/thankYouImage"
+        android:layout_width="319dp"
+        android:layout_height="443dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="Thank You"
+        android:src="@drawable/thank_you_image" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#795548"
+        android:fontFamily="@font/bowlby_one"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

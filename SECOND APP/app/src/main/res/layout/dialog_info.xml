@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:padding="20dp"
+    android:gravity="center"
+    android:elevation="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/bowlby_one"
+        android:gravity="center"
+        android:text="Welcome to Boba Bliss!"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cardo"
+        android:gravity="start"
+        android:text="• Tap on any boba drink to view more details.\n• Customize quantity and click 'Buy Now'.\n• Your receipt shows your bill and a thank-you note.\n• Press Home anytime to return here."
+        android:textColor="#444444"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/gotItButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#7C895F"
+        android:fontFamily="@font/dela_gothic_one"
+        android:text="Got It!"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
