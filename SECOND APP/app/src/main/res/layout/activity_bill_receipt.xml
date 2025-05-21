@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#CCD09E">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+
+        <!-- Receipt Card -->
+        <TextView
+            android:id="@+id/receiptTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bowlby_one"
+            android:text="🧾 Receipt"
+            android:textColor="#4E342E"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Next Button -->
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="562dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_card"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/receiptImage"
+                android:layout_width="268dp"
+                android:layout_height="282dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/receiptDetails"
+                android:layout_width="333dp"
+                android:layout_height="214dp"
+                android:fontFamily="@font/aleo"
+                android:lineSpacingExtra="6dp"
+                android:text="Item: Classic Milk Tea\nFlavor: Brown Sugar\nQty: 2\nPrice: 14.00 AED"
+                android:textColor="#3E2723"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#795548"
+            android:fontFamily="@font/bowlby_one"
+            android:padding="12dp"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

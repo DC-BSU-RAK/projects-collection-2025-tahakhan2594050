@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94D3B87D"
+    android:backgroundTint="#FFF4B2">
+
+    <!-- VideoView for background video -->
+    <VideoView
+        android:id="@+id/backgroundVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Overlay Button on top of the video -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#7D9762"
+        android:fontFamily="@font/bowlby_one"
+        android:padding="12dp"
+        android:text="Get Started"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>
